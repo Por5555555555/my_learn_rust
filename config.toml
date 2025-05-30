@@ -1,0 +1,18 @@
+# config.toml
+
+# การตั้งค่าทั่วไป
+title = "My Rust CLI Tool"
+version = "0.1.0"
+debug_mode = true # ลองเปลี่ยนเป็น false แล้วรันดู
+
+# การตั้งค่าสำหรับ Shell Commands
+[commands]
+default_ls_args = ["-lah", "--color=auto"] # ลองเปลี่ยนเป็น ["-a", "-F"]
+favorite_command = "neofetch"
+alias_sus = "echo I use Ubuntu btw" # ลองเปลี่ยนเป็น "echo My OS is Rust OS"
+
+# การตั้งค่าสำหรับผู้ใช้
+[user]
+name = "Rust Dev"
+email = "dev@rust-lang.org"
+# age = 30 # ลองเพิ่มหรือลบดู
